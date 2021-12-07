@@ -1,3 +1,8 @@
+const Shape = require('./Shape.js');
+const Square = require('./Square.js');
+const Triangle = require('./Triangle.js');
+const transformPlainObjectsToShapes = require('./plainToShapeTransform');
+const plainObjects = require('./shapes.json');
 
 // Please don't change the lines below
 let s = new Shape(5,10);

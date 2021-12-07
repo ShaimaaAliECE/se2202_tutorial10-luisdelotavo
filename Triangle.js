@@ -1,3 +1,6 @@
+//Likewise for Square.js
+const Shape = require('./Shape.js');
+
 class Triangle extends Shape
 {
     constructor(x,y,newHeight)
@@ -38,3 +41,5 @@ class Triangle extends Shape
     }
 
 };
+
+module.exports = Triangle;

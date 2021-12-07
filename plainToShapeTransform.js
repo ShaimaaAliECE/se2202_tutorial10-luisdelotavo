@@ -1,3 +1,7 @@
+const Shape = require('./Shape.js');
+const Square = require('./Square.js');
+const Triangle = require('./Triangle.js');
+
 let transformPlainObjectsToShapes = function (data)
 {
     let shapes = [];
@@ -19,3 +23,5 @@ let transformPlainObjectsToShapes = function (data)
     }
     return shapes;
 };
+
+module.exports = transformPlainObjectsToShapes;

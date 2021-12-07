@@ -50,3 +50,5 @@ class Shape
         return "Shape with main point at: " + this.getX() + "," + this.getY();
     }
 };
+
+module.exports = Shape;

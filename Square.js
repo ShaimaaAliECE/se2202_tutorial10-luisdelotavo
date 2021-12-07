@@ -1,3 +1,7 @@
+//This class does not know what Shape is, we need knowledge from another module
+//Inheritance objects are usually imported w/ const
+const Shape = require('./Shape.js');
+
 class Square extends Shape
 {
     constructor(x,y,newLength)
@@ -39,3 +43,5 @@ class Square extends Shape
     }
 
 };
+
+module.exports = Square;
